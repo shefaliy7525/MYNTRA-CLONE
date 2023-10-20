@@ -1,0 +1,65 @@
+* {
+    margin: 0px;
+    padding: 0px;
+  }
+  
+  html {
+    scroll-behavior: smooth;
+  }
+  
+  body {
+    overflow-x: hidden;
+  }
+  
+  nav {
+    position: sticky;
+    background-color: #ffffff;
+    top: 0px;
+    height: 62px;
+    display: flex;
+    align-items: center;
+    padding: 5px 0px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  }
+  
+  .left {
+    display: flex;
+    align-items: center;
+    width: 100%;
+  }
+  
+  .left ul {
+    display: flex;
+    list-style: none;
+    align-items: center;
+  }
+  
+  .left ul li {
+    padding: 0px 20px;
+    cursor: pointer;
+    text-transform: uppercase;
+    font-weight: 500;
+    font-size: 14px;
+    letter-spacing: .3px;
+    color: #090909;
+    line-height: 80px;
+    font-family: Whitney, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -webkit-text-size-adjust: 100%;
+  }
+  .homeImg{
+    width: 80vw;
+    height: 300px;
+    margin: 12px 0;
+  }
+  
+  .itemImg{
+    width: 12vw;
+    margin: 7px 13px;
+  }
+  .exitImg{
+    width: 80vw;
+    height: 250px;
+    margin:12px 0;
+  }
+  
